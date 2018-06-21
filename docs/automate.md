@@ -21,4 +21,6 @@ CyVerse supports multiple avenues for automating your work.
 
 * **Mac OSX App Development Kit**. Automate CyVerse tasks with the click of a button from your Mac. Check out the Mac OS App Development kit [here](mac-os-app.md).
 
+* **Event Driven Automation with Abaco**. Automate your analyses with event-driven actors [here](abaco.md).
+
 | [Back to CyVerse Developer Portal](../index.md) |
