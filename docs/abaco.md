@@ -32,7 +32,6 @@ apps-deploy fastqc-0.11.7 fastqc-0.11.7/app.json.j2
 ```
 But until the new Cyverse-cli is released, you'll have to build and deploy manually:
 ```
-docker build -t $DOCKER_ORG/$CONTAINER_NAME:0.1.0
 CONTAINER_IMAGE="$DOCKER_ORG/$CONTAINER_NAME:$version"
 docker build -t ${CONTAINER_IMAGE}
 docker push ${CONTAINER_IMAGE}
