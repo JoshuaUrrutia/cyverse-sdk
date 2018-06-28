@@ -73,7 +73,7 @@ git clone https://github.com/JoshuaUrrutia/abaco_notifications.git
 ```
 From the `abaco_notifications` directory, you can run `add_notify_reactor.py` to setup a notification. For example:
 ```
-python add_notify_reactor.py data.iplantcollaborative.org urrutia/fastqc gO0JeWaBM4p3J
+python add_notify_reactor.py data.iplantcollaborative.org urrutia/fastqc GPrgrggl5ler4
 ```
 This will send a notification to the `fastqc_router_reactor` whenever a file is uploaded the `fastqc` directory in my personal storage space on `data.iplantcollaborative.org`. More generally, you can use the following pattern:
 ```
@@ -150,3 +150,5 @@ jobs-output-get $JOB_ID filename.out
 cat filename.out
 ```
 To get logs from the app execution. Good luck, and please reach out to us when you need help troubleshooting!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zVa26lS4oIU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
